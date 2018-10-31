@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>高考志愿填报系统  </title>
+	</head>
+	<style>
+		#header{
+			background: black;
+			color: white;
+			text-align: center;
+			padding: 50px;
+		}
+		#nav{
+			line-height: 30px;
+			background-color: #eeeeee;
+			height: 2000px;
+			width: 200px;
+			font-size:xx-large;
+			float: left;
+		}
+		#nnav{
+			line-height: 30px;
+			height: 2000px;
+			width: 200px;
+			float: right;
+		}
+		#section{
+			width: 1280px;
+			float: left;
+			padding: 10px;
+		}
+		#footer {
+    		background-color:black;
+    		color:white;
+    		clear:both;
+    		text-align:center;
+   			padding:5px;	 	 
+		}
+		.photo{
+			border-radius: 200px;
+		}
+		<style type="text/css">
+		font {font-weight:bold;font-style:italic;}
+	</style>
+	<body>
+		<div id="header">
+			<h1><font size="7">新的征程--高考志愿填报表</font></h1>
+		</div>
+		<div id="nav">
+			<br/>
+			<br/>
+			<b>恭喜各位</b>
+			<br/>
+			<br/>
+			<b>度过了</b>
+			<br/>
+			<br/>
+			<b>高考</b>
+			<br/>
+			<br/>
+			<b>这座独木桥</b>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<b>你们</b>
+			<br/>
+			<br/>
+			<b>无疑</b>
+			<br/>
+			<br/>
+			<b>是优秀的</b>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<b>高考它</b>
+			<br/>
+			<br/>
+			<b>已经</b>
+			<br/>
+			<br/>
+			<b>结束了</b>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<b>无论</b>
+			<br/>
+			<br/>
+			<b>成绩如愿</b>
+			<br/>
+			<br/>
+			<b>与否</b>
+			<br/>
+			<br/>
+			<b>大学的门</b>
+			<br/>
+			<br/>
+			<b>都已开启</b>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<b>现在你只需要</b>
+			<br/>
+			<br/>
+			<b>根据自己</b>
+			<br/>
+			<br/>
+			<b>的内心</b>
+			<br/>
+			<br/>
+			<b>沉着冷静地</b>
+			<br/>
+			<br/>
+			<b>选择你的</b>
+			<br/>
+			<br/>
+			<b>未来</b>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<b>追寻你心</b>
+			<br/>
+			<br/>
+			<b>无问西东</b>
+			<br/>
+			<br/>
+		</div>
+		
+		<div id="nnav">
+			<img src="img\timg.jpg" class="photo"  align="right" >
+			<img src="img\timg.jpg" class="photo"  align="right" >
+			<img src="img\timg.jpg" class="photo"  align="right" >
+			<img src="img\timg.jpg" class="photo"  align="right" >
+			<img src="img\timg.jpg" class="photo"  align="right" >
+			<img src="img\timg.jpg" class="photo"  align="right" >
+			<img src="img\timg.jpg" class="photo"  align="right" >
+		</div>
+		<div id="section">
+			<table  align="center" border="1" cellspacing="0">
+				<tr>
+					<td colspan="3" rowspan="2" width="150px" height="80px"><h1>考生基本信息</h1></td>
+					<td colspan="4" width="200px" height="40px" align="center"><font size="6"  style="font-weight: bold;">姓名</font></td>
+					<td colspan="5" width="250px" height="40px" align="center"><font size="6"  style="font-weight: bold;">考生号</font></td>
+					<td colspan="8" width="400px" height="40px" align="center"><font size="6"  style="font-weight: bold;">身份证号</font></td>
+				</tr>
+				<tr>
+					<td colspan="4" width="200px" height="40px" align="center"><input type="text" style="padding:8px 6px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="5" width="250px" height="40px" align="center"><input type="text" style="padding:8px 6px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="8" width="400px" height="40px" align="center"><input type="text" style="padding:8px 6px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+				</tr>
+				<tr>
+					<td colspan="20" width="1000px" height="40px" align="center"><font size="6"  style="font-weight: bold;">提前批次本科院校——军校（含国防生）院校</font></td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan="3" height="120px" width="100px" align="center"><font size="6"  style="font-weight: bold;">院校代码</font></td>
+					<td colspan="4" rowspan="3" height="120px" width="200px" align="center"><font size="6"  style="font-weight: bold;">院校名称</font></td>
+					<td colspan="12" height="40px" width="600px" align="center"><font size="6"  style="font-weight: bold;">专业</font></td>
+					<td colspan="1" rowspan="3" height="120px" width="50px" align="center"><font size="6"  style="font-weight: bold;">专业服从</font></td>
+					<td colspan="1" rowspan="3" height="120px" width="50px" align="center"><font size="6"  style="font-weight: bold;">院校服从</font></td>
+				</tr>
+				<tr>
+					<td colspan="1" rowspan="2" height="80px" width="50px" align="center"><font size="6"  style="font-weight: bold;">代码1</font></td>
+					<td colspan="3" rowspan="2" height="80px" width="150px" align="center"><font size="6"  style="font-weight: bold;">专业名称1</font></td>
+					<td colspan="1" rowspan="2" height="80px" width="50px" align="center"><font size="6"  style="font-weight: bold;">代码2</font></td>
+					<td colspan="3" rowspan="2" height="80px" width="150px" align="center" ><font size="6"  style="font-weight: bold;">专业名称2</font></td>
+					<td colspan="1" rowspan="2" height="80px" width="50px" align="center"><font size="6"  style="font-weight: bold;">代码3</font></td>
+					<td colspan="3" rowspan="2" height="80px" width="150px" align="center"><font size="6"  style="font-weight: bold;">专业名称3</font></td>
+				</tr>
+				<tr>
+				</tr>
+				<tr>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">A</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+					<td colspan="1" rowspan="4" height="160px" width="50px" align="center"> 
+					<form>
+						<input type="radio" name="weather" value="YES"  style="zoom：180%"  align="center"  checked>是
+						<br>
+						<br>
+						<input type="radio" name="weather" value="NO"  style="zoom：180%" align="center">否
+					</form> 
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">B</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">C</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">D</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+				</tr>
+				<tr>
+					<td colspan="20" width="1000px" height="40px" align="center"><font size="6"  style="font-weight: bold;">提前批次本科院校——免费师范生</font></td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan="3" height="120px" width="100px" align="center"><font size="6"  style="font-weight: bold;">院校代码</font></td>
+					<td colspan="4" rowspan="3" height="120px" width="200px" align="center"><font size="6"  style="font-weight: bold;">院校名称</font></td>
+					<td colspan="12" height="40px" width="600px" align="center"><font size="6"  style="font-weight: bold;">专业</font></td>
+					<td colspan="1" rowspan="3" height="120px" width="50px" align="center"><font size="6"  style="font-weight: bold;">专业服从</font></td>
+					<td colspan="1" rowspan="3" height="120px" width="50px" align="center"><font size="6"  style="font-weight: bold;">院校服从</font></td>
+				</tr>
+				<tr>
+					<td colspan="1" rowspan="2" height="80px" width="50px" align="center"><font size="6"  style="font-weight: bold;">代码1</font></td>
+					<td colspan="3" rowspan="2" height="80px" width="150px" align="center"><font size="6"  style="font-weight: bold;">专业名称1</font></td>
+					<td colspan="1" rowspan="2" height="80px" width="50px" align="center"><font size="6"  style="font-weight: bold;">代码2</font></td>
+					<td colspan="3" rowspan="2" height="80px" width="150px" align="center" ><font size="6"  style="font-weight: bold;">专业名称2</font></td>
+					<td colspan="1" rowspan="2" height="80px" width="50px" align="center"><font size="6"  style="font-weight: bold;">代码3</font></td>
+					<td colspan="3" rowspan="2" height="80px" width="150px" align="center"><font size="6"  style="font-weight: bold;">专业名称3</font></td>
+				</tr>
+				<tr>
+				</tr>
+				<tr>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">A</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+					<td colspan="1" rowspan="4" height="160px" width="50px" align="center"> 
+					<form>
+						<input type="radio" name="weather" value="YES"  style="zoom：180%"  align="center"  checked>是
+						<br>
+						<br>
+						<input type="radio" name="weather" value="NO"  style="zoom：180%" align="center">否
+					</form> 
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">B</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">C</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">D</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+				</tr>
+				<tr>
+					<td colspan="20" width="1000px" height="40px" align="center"><font size="6"  style="font-weight: bold;">本科一批</font></td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan="3" height="120px" width="100px" align="center"><font size="6"  style="font-weight: bold;">院校代码</font></td>
+					<td colspan="4" rowspan="3" height="120px" width="200px" align="center"><font size="6"  style="font-weight: bold;">院校名称</font></td>
+					<td colspan="12" height="40px" width="600px" align="center"><font size="6"  style="font-weight: bold;">专业</font></td>
+					<td colspan="1" rowspan="3" height="120px" width="50px" align="center"><font size="6"  style="font-weight: bold;">专业服从</font></td>
+					<td colspan="1" rowspan="3" height="120px" width="50px" align="center"><font size="6"  style="font-weight: bold;">院校服从</font></td>
+				</tr>
+				<tr>
+					<td colspan="1" rowspan="2" height="80px" width="50px" align="center"><font size="6"  style="font-weight: bold;">代码1</font></td>
+					<td colspan="3" rowspan="2" height="80px" width="150px" align="center"><font size="6"  style="font-weight: bold;">专业名称1</font></td>
+					<td colspan="1" rowspan="2" height="80px" width="50px" align="center"><font size="6"  style="font-weight: bold;">代码2</font></td>
+					<td colspan="3" rowspan="2" height="80px" width="150px" align="center" ><font size="6"  style="font-weight: bold;">专业名称2</font></td>
+					<td colspan="1" rowspan="2" height="80px" width="50px" align="center"><font size="6"  style="font-weight: bold;">代码3</font></td>
+					<td colspan="3" rowspan="2" height="80px" width="150px" align="center"><font size="6"  style="font-weight: bold;">专业名称3</font></td>
+				</tr>
+				<tr>
+				</tr>
+				<tr>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">A</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+					<td colspan="1" rowspan="4" height="160px" width="50px" align="center"> 
+					<form>
+						<input type="radio" name="weather" value="YES"  style="zoom：180%"  align="center"  checked>是
+						<br>
+						<br>
+						<input type="radio" name="weather" value="NO"  style="zoom：180%" align="center">否
+					</form> 
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">B</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">C</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">D</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+				</tr>
+				<tr>
+					<td colspan="20" width="1000px" height="40px" align="center"><font size="6"  style="font-weight: bold;">本科二批</font></td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan="3" height="120px" width="100px" align="center"><font size="6"  style="font-weight: bold;">院校代码</font></td>
+					<td colspan="4" rowspan="3" height="120px" width="200px" align="center"><font size="6"  style="font-weight: bold;">院校名称</font></td>
+					<td colspan="12" height="40px" width="600px" align="center"><font size="6"  style="font-weight: bold;">专业</font></td>
+					<td colspan="1" rowspan="3" height="120px" width="50px" align="center"><font size="6"  style="font-weight: bold;">专业服从</font></td>
+					<td colspan="1" rowspan="3" height="120px" width="50px" align="center"><font size="6"  style="font-weight: bold;">院校服从</font></td>
+				</tr>
+				<tr>
+					<td colspan="1" rowspan="2" height="80px" width="50px" align="center"><font size="6"  style="font-weight: bold;">代码1</font></td>
+					<td colspan="3" rowspan="2" height="80px" width="150px" align="center"><font size="6"  style="font-weight: bold;">专业名称1</font></td>
+					<td colspan="1" rowspan="2" height="80px" width="50px" align="center"><font size="6"  style="font-weight: bold;">代码2</font></td>
+					<td colspan="3" rowspan="2" height="80px" width="150px" align="center" ><font size="6"  style="font-weight: bold;">专业名称2</font></td>
+					<td colspan="1" rowspan="2" height="80px" width="50px" align="center"><font size="6"  style="font-weight: bold;">代码3</font></td>
+					<td colspan="3" rowspan="2" height="80px" width="150px" align="center"><font size="6"  style="font-weight: bold;">专业名称3</font></td>
+				</tr>
+				<tr>
+				</tr>
+				<tr>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">A</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+					<td colspan="1" rowspan="4" height="160px" width="50px" align="center"> 
+					<form>
+						<input type="radio" name="weather" value="YES"  style="zoom：180%"  align="center"  checked>是
+						<br>
+						<br>
+						<input type="radio" name="weather" value="NO"  style="zoom：180%" align="center">否
+					</form> 
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">B</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">C</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+				</tr>
+				<tr>
+					<td colspan="1" height="40px" width="50px" align="center"><font size="6"  style="font-weight: bold;">D</font></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;">
+					<td colspan="4" height="40px" width="200px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">05</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">05</option>
+						<option value="4" style="font-size: x-large;">08</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">01</option>
+						<option value="2" style="font-size: x-large;">05</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center">
+						<select name="cars" style="zoom: 120%;">
+						<option value="1" style="font-size: x-large;">04</option>
+						<option value="2" style="font-size: x-large;">08</option>
+						<option value="3" style="font-size: x-large;">03</option>
+						<option value="4" style="font-size: x-large;">04</option>
+						</select>
+					</td>
+					<td colspan="3" height="40px" width="150px" align="center"><input type="text" style="padding:4px 2px; font-size: 20px; text-align: center; font-weight: bold;"  /></td>
+					<td colspan="1" height="40px" width="50px" align="center" ><input type="checkbox" style="zoom: 180%;"></td>
+				</tr>
+			</table>
+			<br />
+			<br />
+			<br />
+			<br />
+			<div style="text-align:center">
+				<input type="submit" value="大学之门为你而开" style="zoom: 200%;" align="center"/>
+			</div>
+		</div>
+		<div id=footer>
+			<font size="5"> 祝大家都能去一所心仪的院校</font>
+		</div>
+	</body>
+</html>
