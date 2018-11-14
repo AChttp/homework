@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<meta charset="utf-8">
+	<style> 
+		#first_div{
+			border: 1px solid black;
+		}
+		.PP{
+			
+		}
+	</style>
+</head>
+<body>
+	<script>
+		function addNewA(){
+			var x=document.createElement("a");
+			x.setAttribute("href","#");
+			x.setAttribute("class","AA");
+			x.style.color="yellow";
+			x.style.backgroundColor="red";
+			var y=document.createTextNode("第一个操作")
+			x.appendChild(y);
+			document.getElementById("first_div").appendChild(x);
+			
+		}
+		function removeP(){
+			var x=document.getElementsByClassName("PP");
+			var y=document.getElementById("first_div");
+			var i;
+			for (i=x.length-1; i>=0; i--){
+				y.removeChild(x[i]);
+			}
+		}
+		function removeA(){
+			var x=document.getElementsByClassName("AA");
+			var y=document.getElementById("first_div");
+			var i;
+			for (i=x.length-1; i>=0; i--){
+				y.removeChild(x[i]);
+			}
+		}
+		function changecolor(){
+			var z=document.getElementById("first_div").childNodes;
+			var i;
+			var y=document.getElementById("first_div");
+			for (i=z.length-1; i>=0; i--){
+				z[i].style.backgroundColor="red";
+			}
+		}
+	</script>
+	<div id="first_div"><p class="PP">This is P1</p><p class="PP">This is P2</p><a class="AA" href="#">This is A1</a></div>
+	<button onclick="addNewA()">添加A元素</button>
+	<button onclick="removeP()">移除P元素</button>
+	<button onclick="removeA()">移除A元素</button>
+	<button onclick="changecolor()">改变颜色</button>
+</body>
+
+</html>
