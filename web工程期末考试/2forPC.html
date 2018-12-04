@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Easyconnect for Download</title>
+		<!--
+			自适应屏幕大小
+        -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<!--
+        	引用swiper框架(css)
+       -->
+		<link rel="stylesheet" href="css/swiper4-animate-demo/css/animate.min.css" />
+		<link rel="stylesheet" href="css/swiper4-animate-demo/css/swiper.min.css" />
+		<style>
+			html,
+			body {
+				position: relative;
+				height: 100%;
+			}
+			
+			body {
+				background: #eee;
+				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+				font-size: 14px;
+				color: #000;
+				margin: 0;
+				padding: 0;
+			}
+			
+			.swiper-container {
+				width: 100%;
+				height: 100%;
+				margin: 0 auto;
+			}
+			
+			.swiper-slide {
+				text-align: center;
+				font-size: 18px;
+				background: #fff;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: #E2E7EE;
+			}
+			
+			#slideone{
+				width: 100%;
+				height: 400px;
+				
+				//border: 1px solid black;
+			}
+			
+			#slidetwo{
+				width: 100%;
+				height: 400px;
+				
+				//border: 1px solid black;
+			}
+			
+			#slidethree{
+				width: 100%;
+				height: 400px;
+				
+				//border: 1px solid black;
+				
+			}
+			#slidefour{
+				width: 100%;
+				height: 400px;
+				
+				//border: 1px solid black;
+				
+			}
+			#slidefive{
+				width: 450px;
+				height: 420px;
+			}
+			/*
+			 	修改css文件不能只从.swiper-pagination-bullet-active下手
+			 	而是  .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet-active
+			 */
+			
+			.swiper-container-vertical>.swiper-pagination-bullets{
+				margin-right: 20px;
+			}
+			.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{
+				width: 10px;
+				height: 10px;
+				
+				margin: 15px auto;
+				
+
+				
+			}
+			.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet-active{
+				width: 15px;
+				height: 15px;
+				
+				background-color: white;
+			
+			}
+			.swiper-button-next{
+				top: 97%;
+				left: 50%;
+				transform:rotate(90deg);
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" >
+					<div id="slideone">
+						<img src="img/pc for download/1/Easyconnect.png"/>
+						<img src="img/pc for download/1/3d0e3d507da08d24a21e2540aeb9ee2c.jpg"
+							class="ani" swiper-animate-effect="fadeInUp " swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"/>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div id="slidetwo">
+						<img src="img/pc for download/1/全新界面.png"/>
+						<img src="img/pc for download/1/1543775470419.jpg"
+							class="ani" swiper-animate-effect="zoomIn " swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"/>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div id="slidethree">
+						<img src="img/pc for download/1/全新设计.png"/>
+						<img src="img/pc for download/1/90ede4777bb4f7cfc33a34284290c880.jpg"
+							class="ani" swiper-animate-effect="bounceInRight " swiper-animate-duration="0.6s" swiper-animate-delay="0.5s"/>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div id="slidefour">
+						<img src="img/pc for download/1/AI智能.png"/>
+						<img src="img/pc for download/1/1543775456626.jpg"
+							class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s"/>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div id="slidefive">
+						<img src="img/pc for download/1/让家更懂你.png"
+							class="ani" swiper-animate-effect="bounceInDown " swiper-animate-duration="0.5s" swiper-animate-delay="0.1s"/>
+						<img src="img/pc for download/1/立即下载.png"
+							class="ani" swiper-animate-effect="bounceInUp " swiper-animate-duration="0.5s" swiper-animate-delay="0.1s"/>
+						<div class="ani" swiper-animate-effect="flash " swiper-animate-duration="1s" swiper-animate-delay="0.9s">
+							<p>三翼工作室独家赞助</p>
+							<p>鸣谢雷志凯学长  （fullpage实现）</p>
+							<p>强烈安利swiper插件</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>	
+			<div class="swiper-button-next" ></div>
+		</div>
+		</div>
+		<!--
+        	引用swiper框架(js)
+        -->
+		
+		<script src="css/swiper4-animate-demo/js/swiper.animate.min.js"></script>
+		<script src="css/swiper4-animate-demo/js/swiper.min.js"></script>
+		<!--
+        	初始化swiper
+        -->
+
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				direction: 'vertical', //垂直分布
+				slidesPerView: 1, //几个界面
+				spaceBetween: 0, //分界面距离
+				mousewheel: true, //鼠标控制
+				autoplay: true, //自动播放
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+					
+				},
+				 navigation: {
+				    nextEl: '.swiper-button-next',
+				    prevEl: '.swiper-button-prev',
+				 },
+				
+				on:{
+			      init: function(){
+			        swiperAnimateCache(this); //隐藏动画元素 
+			        swiperAnimate(this); //初始化完成开始动画
+			      }, 
+			      slideChangeTransitionEnd: function(){ 
+			        swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+			        //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+			      } 
+			    }
+				/*
+				 	这个地方如果新建一个<script> 会导致原本样式消失
+				 */
+			});	
+		</script>
+
+	</body>
+
+</html>

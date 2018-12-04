@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="js/EasyFader/jquery.easyfader.css"/>
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+		<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+		<style>
+			.ui-header .ui-title, .ui-footer .ui-title{		
+			}
+			#dowebok{
+				width: 100%;
+			}
+			.pager_list{
+				top: 60%;
+			}
+			.fader .prev,.fader .next{
+				top: 35%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div data-role="page" id="pageone">
+			<div data-role="header">
+				<h1 class="h1">Easyconnect</h1>
+				<a href="#" data-role="submit" data-transition="slide" data-icon="arrow-l">返回</a>
+			
+				<a href="#pagetwo" data-role="submit" data-icon="arrow-r" data-transition="slide" data-iconpos="right">前进</a>
+				
+			</div>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#anylink">首页</a></li>
+					<li><a href="#anylink">下载</a></li>
+					<li><a href="#anylink">搜索</a></li>
+				</ul>
+			</div>
+			<div data-role="content">
+				<div class="wrap">
+				    <div id="dowebok" class="fader">
+				    	<img class="slide" src="img/首页/1.jpg"/>
+				        <img class="slide" src="img/首页/2.jpg">
+				        <img class="slide" src="img/首页/3.jpg">
+				        <img class="slide" src="img/首页/4.jpg">
+				        <div class="fader_controls">
+				            <div class="page prev" data-target="prev">&lsaquo;</div>
+				            <div class="page next" data-target="next">&rsaquo;</div>
+				            <ul class="pager_list"></ul>
+				        </div>
+				    </div>
+				</div>
+				<p style="text-align: center;">Easyconnect致力于打造智能家居新平台</p>
+				<p style="text-align: center; font-size: 24px;">Easyconnect的新特性</p>
+				
+				<div data-role="collapsible">
+				
+					<h1>不依赖框架</h1>
+					<p>EasyConnect无需加载任何公共库即可运行，这保证了EasyConnect的轻量和运行速度。EasyConnect也可以在加载了公共库的环境下安全的运行</p>
+				</div>
+				<div data-role="collapsible">
+				
+					<h1>全新UI设计</h1>
+					<p>EasyConnect采用欧美简约风格，融合现代科技元素，最符合人性化的设计。更科技，更潮美，全新UI设计带给你最佳享受</p>
+				</div>
+				<div data-role="collapsible">
+				
+					<h1>完整的导航控制</h1>
+					<p>EasyConnect配备了常用的导航控制器，傻瓜式一键操作，让家居互联成为可能</p>
+				</div>
+				<div data-role="collapsible">
+				
+					<h1>全新物联网体验</h1>
+					<p>EasyConnect致力于打造创建兼容性，开放性，可优化的智能家居水平生态系统</p>
+				</div>
+				<div data-role="collapsible">
+				
+					<h1>更多</h1>
+					<p>请移步下载界面www.baidu.com</p>
+				</div>
+				
+			</div>
+
+			<div data-role="footer">
+				<h1>Copyright © 2015-2018</h1>
+			</div>
+		</div>
+		<script src="js/EasyFader/jquery.min.js"></script>
+		<script src="js/EasyFader/jquery.easyfader.min.js"></script>
+		<script>
+			$(function() {
+				$('#dowebok').easyFader();
+			});
+		</script>
+	</body>
+
+</html>
+/* */

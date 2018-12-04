@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Easyconnect</title>
+		<link rel="stylesheet" href="js/EasyFader/jquery.easyfader.css"/>
+		<style>
+			@font-face {
+				font-family:CN Normal;
+				src: url(js/SourceHanSansCN-Normal.otf);
+			}
+			@font-face {
+				font-family:CN Heavy;
+				src: url(js/SourceHanSansCN-Heavy.otf);
+			}
+			li{
+				list-style-type: none;
+			}
+			body{
+				background-color: #F0F0F0;
+				font-family: CN normal;
+			}
+			#nav{
+				width: 940px;
+				height: 100px;
+				margin: 0 auto;
+			}
+			#nav_left {
+				float: left;
+				margin-right: 80px;
+			}
+			#nav_left h1{
+				font-family: CN Heavy;
+				
+				font-size: 50px;
+				
+				color: #2E3444;
+				
+				margin:12.5px auto;
+			}
+			
+			#nav_mid li a{
+				text-decoration: none;
+				color: black;
+				width: 60px;
+				height: 100px;
+				line-height: 100px;
+				
+				
+				font-size: 24px;
+				
+				display: inline-block;
+				
+				float: right;
+				
+				margin-right: 30px;
+				text-align: center;
+			}
+			#nav_mid li:nth-child(1) a{
+				width: 120px;
+			}
+			.nav_on,
+			#nav_mid li a:hover{
+				font-size: 30px;
+				
+				font-weight: 600;
+			}
+			
+			.wrap{
+				width: 900px;
+				height: 421px;
+				
+				margin: 0 auto;
+				margin-top: 50px;
+			}
+			#dowebok{
+				width: 100%;
+			}
+			.pager_list{
+				top: 70%;
+			}
+			.fader .prev,.fader .next{
+				top: 40%;
+			}
+			
+			.footer{
+				width: 900px;
+				height: 80px;
+				line-height: 80px;
+				
+				margin-top: 20px;
+				text-align: center;
+				
+				font-size: 24px;
+				margin: 20px auto;
+			}
+			.content{
+				width: 100%;
+				height: 650px;
+				
+				margin-top: 50px;
+			}
+			.content p{
+				width: 100%;
+				
+				text-align: center;
+				
+				font-family: CN normal;
+				
+				font-size: 34px;
+				
+				margin: 0 auto;
+				
+				margin-top: 20px;
+			}
+			.content dl{
+				float: left;
+			    width: 270px;
+			    padding: 15px;
+			    height: 150px;
+			    
+			    margin: 10px auto;
+			}
+			.content dl dt{
+				font-family: CN normal;
+			    font-weight: 300;
+			    font-size: 20px;
+			    display: block;
+			    line-height: 30px;
+			    margin-bottom: 10px;
+			    color: #333;
+			}
+			.content dl dd{
+				color: #333;
+				margin-inline-start:0px;
+			}
+			#content_item{
+				width: 900px;
+				height: 600px;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="nav">
+			<div id="nav_left">
+				<h1>Easyconnect</h1>
+			</div>
+			<div id="nav_mid" >
+				
+				<li>
+					<a href="三翼作业之登陆交互/index.html">联系我们</a>
+				</li>
+				<li>
+					<a href="Introduce.html" target="_blank">合作</a>
+				</li>
+				<li>
+					<a href="2forPC.html" target="_blank">下载</a>
+				</li>
+				<li>
+					<a href="index.html" class="nav_on">首页</a>
+				</li>
+				
+			</div>
+			<div id="mid_right">
+				
+			</div>
+		</div>
+	<div class="wrap">
+	    <div id="dowebok" class="fader">
+	    	<img class="slide" src="img/首页/1.jpg"/>
+	        <img class="slide" src="img/首页/2.jpg">
+	        <img class="slide" src="img/首页/3.jpg">
+	        <img class="slide" src="img/首页/4.jpg">
+	        <div class="fader_controls">
+	            <div class="page prev" data-target="prev">&lsaquo;</div>
+	            <div class="page next" data-target="next">&rsaquo;</div>
+	            <ul class="pager_list"></ul>
+	        </div>
+	    </div>
+	</div>
+	<div class="content">
+		<p>EasyConnect的特色功能</p>
+		<div id="content_item">
+			<dl>
+				<dt>不依赖框架</dt>
+				<dd>EasyConnect无需加载任何公共库即可运行，这保证了EasyConnect的轻量和运行速度。EasyConnect也可以在加载了公共库的环境下安全的运行</dd>
+			</dl>
+			<dl>
+				<dt>全新UI设计</dt>
+				<dd>EasyConnect采用欧美简约风格，融合现代科技元素，最符合人性化的设计。更科技，更潮美，全新UI设计带给你最佳享受</dd>
+			</dl>
+			<dl>
+				<dt>完整的导航控制</dt>
+				<dd>EasyConnect配备了常用的导航控制器，傻瓜式一键操作，让家居互联成为可能</dd>
+			</dl>
+			<dl>
+				<dt>全新物联网体验</dt>
+				<dd>EasyConnect致力于打造创建兼容性，开放性，可优化的智能家居水平生态系统</dd>
+			</dl>
+			<dl>
+				<dt>人工智能更懂你</dt>
+				<dd>再能也比不过人工智能，EasyConnect让电视更懂你</dd>
+			</dl>
+			<dl>
+				<dt>双向控制</dt>
+				<dd>现在EasyConnect可以用来控制其他的EasyConnect平台，甚至可以同时控制。</dd>
+			</dl>
+			<dl>
+				<dt>内存懒加载</dt>
+				<dd>EasyConnect对非及时性内存实行延迟加载，这个功能加快了软件的打开速度，提高了EasyConnect的使用体验。</dd>
+			</dl>
+			<dl>
+				<dt>最新黑科技</dt>
+			<dd>EasyConnect的开发者们集思广益，想出来一个个大胆的想法</dd>
+			</dl>
+			<dl>
+				<dt>丰富的插件资源</dt>
+				<dd>EasyConnect拥有丰富的插件市场，允许你建立自己独特的智造家</dd>
+			</dl>
+			
+		</div>
+	</div>
+	<div class="footer">
+			Copyright © 2015-2018 EasyConnect
+	</div>
+		<script src="js/EasyFader/jquery.min.js"></script>
+		<script src="js/EasyFader/jquery.easyfader.min.js"></script>
+		<script>
+			$(function() {
+				$('#dowebok').easyFader();
+			});
+		</script>
+	</body>
+</html>

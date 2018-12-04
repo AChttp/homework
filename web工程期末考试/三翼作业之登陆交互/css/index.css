@@ -1,0 +1,292 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 0px;
+}
+li ul{
+	text-decoration: none;
+}
+#box{
+	width: 800px;
+	height: 570px;
+	
+	margin: 150px auto;
+}
+#main{
+	width: 384px;
+	height: 530px;
+	
+	margin: 0 auto;
+	padding: 10px 0px 30px 0px;
+	border: 1px solid black;
+}
+#login_register{
+	width: 344px;
+	height: 49px;
+	
+	font-size:  14px;
+	font-family: "微软雅黑";
+	
+	display: block;
+	padding: 0px 20px 25px 20px;
+	
+}
+.login_register_word{
+	width: 40px;
+	height: 49px;
+	
+	line-height: 49px;
+	float: left;
+	
+	font-size:  14px;
+	font-weight: 700;
+	font-family: "微软雅黑";
+	color: rgb(120, 125, 130);
+
+	text-align: center;
+	text-decoration: none;
+	
+	margin: 0px 20px 0px 20px;
+}
+.on{
+	color: red;
+	border-bottom: 2px solid red;
+}
+
+#put_form{
+	width: 320px;
+	height: 286px;
+	
+	padding: 0px 32px 0px 32px;
+	
+}
+
+#signup_from{
+	width: 320px;
+	height: 286px;
+	
+	display: block;	
+}
+
+#signup_from_usename{
+	width: 320px;
+	height: 68px;
+	
+}
+#signup_from_password{
+	width: 320px;
+	height: 68px;
+}
+#signup_from_usename_input{
+	width: 292px;
+	height: 20px;
+	line-height: 20px;
+	
+	padding: 14px;
+	
+	background-color: rgba(28, 31, 33, 0.06);
+	box-shadow: 2px 0 5px 0 #fff;
+
+	border-radius: 8px;
+	border: none;
+	
+	font-size: 14px;
+	color: black;
+}
+
+#signup_from_password_input{
+	width: 292px;
+	height: 20px;
+	line-height: 20px;
+	
+	padding: 14px;
+	
+	background-color: rgba(28, 31, 33, 0.06);
+	box-shadow: 2px 0 5px 0 #fff;
+
+	border-radius: 8px;
+	border: none;
+	
+	font-size: 14px;
+	color: black;
+}
+
+#signup_from_code{
+	width: 320px;
+	height: 68px;
+}
+#signup_from_code_input{
+	width: 142px;
+	height: 20px;
+	line-height: 20px;
+	
+	padding: 14px;
+	
+	background-color: rgba(28, 31, 33, 0.06);
+	box-shadow: 2px 0 5px 0 #fff;
+
+	border-radius: 8px;
+	border: none;
+	
+	font-size: 14px;
+	color: black;
+}
+#signup_from_code_input_img_box{
+	width: 150px;
+	height: 55px;
+	float: right;
+}
+#signup_from_code_input_img_img{
+	width: 150px;
+	height: 55px;
+}
+#signup_from_code_wrong{
+	width: 170px;
+	height: 20px;
+	line-height: 20px;
+	
+	color:red;
+	
+	font-size:14px;
+}
+#signup_from_usename_wrong{
+	width: 320px;
+	height: 20px;
+	line-height: 20px;
+	
+	color:red;
+	
+	font-size:14px;
+}
+#signup_from_password_wrong{
+	width: 320px;
+	height: 20px;
+	line-height: 20px;
+	
+	color:red;
+	
+	font-size:14px;
+}
+#remenber_forget_find{
+	width: 320px;
+	height: 14px;
+	line-height: 14px;
+	
+	font-size: 14px;
+	font-weight: 400;
+	
+	color: black;
+	
+}
+.checked_label{
+	float: left;
+	
+	height: 14px;
+	line-height: 14px;
+	
+	color: #9199A1;
+	font-size: 14px;
+}
+.checked{
+	margin-right: 10px;
+}
+
+.forget_cannot{
+	float: right;
+	
+	height: 14px;
+	line-height: 14px;
+	
+	color: #9199A1;
+	font-size: 14px;
+}
+
+.forget_cannot_div{
+	width: 1px;
+    height: 14px;
+	
+	margin: 0 16px;
+    background: rgba(28,31,33,.1);
+    
+    float: right;
+}
+#before_input_button{
+	width: 320px;
+	height: 20px;
+	
+}
+#input_button_box{
+	width: 320px;
+	height: 48px;
+	
+}
+
+#input_button{
+	width: 320px;
+	height: 48px;
+	line-height: 24px;
+	
+	padding: 11px 32px 11px 32px;
+	
+    font-size: 16px;
+    border-radius: 24px;
+    
+    background-color: #f20d0d;
+    border:1px solid #f20d0d;
+    
+    color: white;
+}
+
+#input_button_box_after{
+	width: 324px;
+	height: 24px;
+	padding: 20px 30px 4px 30px;
+}
+#other_login{
+	width: 84px;
+	height: 24px;
+	line-height: 24px;
+	
+	padding: 0px 24px 0px 0px;
+	margin: 0px 24px 0px 30px;
+	
+	border-right: 1px solid #1A1C1F21;
+	
+	font-size: 14px;
+	color: red;
+	text-align: left;
+	
+	float: left;
+}
+
+#other_login_logo{
+	width: 161px;
+	height: 24px;
+	line-height: 24px;
+	
+	float: right;
+	
+	font-size: 24px;
+}
+
+.logo{
+	width: 24px;
+	height: 24px;
+	
+	margin-right: 24px;
+	
+	font-size: 24px;
+	
+	color: #c8cdd2;
+}
+.logo:hover{
+	color: red;
+}
+
+#getdate{
+	width: 320px;
+	height: 112px;
+	
+	padding: 20px 32px 0px 32px;
+	font-size: 14px;
+}
